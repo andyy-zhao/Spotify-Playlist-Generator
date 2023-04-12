@@ -8,7 +8,7 @@ Welcome to the Playlist Generator for Spotify! This application allows you to ge
 * Generates Spotify Playlist with custom playlist name
 
 ## Screenshots
-<img src="/src/assets/screenshots/previous.png?raw=true" alt="Previously Listened" width="400"> <img src="/src/assets/screenshots/generate.png?raw=true" alt="Generated" width="400">
+<img src="/src/assets/screenshots/previous.png?raw=true" alt="Previously Listened" width="400"> <img src="/src/assets/screenshots/generate.png?raw=true" alt="Generated" width="350">
 
 ## Installation and Setup
 These instructions will get you a copy of the project up and running on your local machine. As of now, this is the only way for you to be able to access this application as a way to maintain personal privacy. 
