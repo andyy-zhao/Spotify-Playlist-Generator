@@ -31,3 +31,11 @@ Run ```npm install``` in the terminal in the root folder.
 Run ```npm start``` in the terminal in the root folder. 
 
 The application should now be running on http://localhost:3000/
+
+## Technologies Used:
+
+* HTML
+* CSS
+* JavaScript
+* ReactJS
+* REST APIs
