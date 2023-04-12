@@ -8,4 +8,26 @@ Welcome to the Playlist Generator for Spotify! This application allows you to ge
 * Generates Spotify Playlist with custom playlist name
 
 ## Screenshots
-<img src="/src/assets/screenshots/previous.png?raw=true" alt="Previously Listened" width="400"> <img src="/src/assets/screenshots/generate.png?raw=true" alt="Generated" width="300">
+<img src="/src/assets/screenshots/previous.png?raw=true" alt="Previously Listened" width="400"> <img src="/src/assets/screenshots/generate.png?raw=true" alt="Generated" width="400">
+
+## Installation and Setup
+These instructions will get you a copy of the project up and running on your local machine. As of now, this is the only way for you to be able to access this application as a way to maintain personal privacy. 
+
+### Prerequisites
+Clone this repository. You will need ```npm``` installed on your local machine. You will also need to create a Spotify App on your Spotify account. Set the redirect URI to http://localhost:3000. You will also need to create a ```.env``` file in the root folder of the project. In the .env file, copy and paste this code, replacing {spotify_app_client_id} with the Client ID of your spotify app. You can obtain the Client ID by going to settings in your spotify app.
+```
+REACT_APP_CLIENT_ID={spotify_app_client_id}
+REACT_APP_REDIRECT_URI=http://localhost:3000
+REACT_APP_AUTH_ENDPOINT=https://accounts.spotify.com/authorize
+REACT_APP_RESPONSE_TYPE=token
+```
+
+Once this is completed, follow these steps to get the project running: 
+
+### Installation: 
+Run ```npm install``` in the terminal in the root folder. 
+
+### To Start Application: 
+Run ```npm start``` in the terminal in the root folder. 
+
+The application should now be running on http://localhost:3000/
